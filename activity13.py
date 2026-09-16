@@ -8,6 +8,7 @@ if age >= 21 and is_employed == True:
     print("Passed baseline eligibility")
     if credit_score >= 750:
         if annual_income >= 100000:
+           base_rate = 4.5
            print("Final interest rate is : 4.5%")
         else:        
             base_rate = 5.0
