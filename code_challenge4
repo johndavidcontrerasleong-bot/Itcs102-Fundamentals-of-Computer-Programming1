@@ -2,6 +2,11 @@ import getpass
 
 username = str(input("Enter your username: "))
 password = getpass.getpass("Enter your password: ")
+if username == "admin" and password == "password123":
+ print("Access granted.")
+else:
+ print("Access denied. Invalid username or password.")
+ exit()
 
 age = int(input("Enter Age: "))
 is_employed = bool(input("Are you Currently Employed? "))
